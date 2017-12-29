@@ -6,7 +6,7 @@ class SystemPropertiesImplementer
 	 *   @param option the option the user selected
 	 *   @param stringArg the specific property the user may want
 	 */
-	static void executeOption(int option, String stringArg)
+	private static void executeOption(int option, String stringArg)
 	{
 		SystemProperties sysProps = new SystemProperties();
 		switch(option)
@@ -28,7 +28,6 @@ class SystemPropertiesImplementer
 				sysProps.help();
 				System.exit(0);
 				break;
-		
 		}
 	}
 	
@@ -44,5 +43,4 @@ class SystemPropertiesImplementer
 			executeOption(usersOption, stringArg);
 		}	
 	}
-
 }
