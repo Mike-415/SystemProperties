@@ -20,8 +20,8 @@ class SystemProperties
 	        String value = (String)properties.getProperty(key);
 	        if(specificProperty.length > 0)
 	        {
-	        	if(key.contains(specificProperty[0]))
-	           	{
+	            if(key.contains(specificProperty[0]))
+		    {
 	              	results += key+":   "+value+"\n\n";
 	            }
 	        }
