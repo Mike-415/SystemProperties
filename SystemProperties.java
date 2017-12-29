@@ -23,7 +23,7 @@ class SystemProperties
 	        	if(key.contains(specificProperty[0]))
 	           	{
 	              	results += key+":   "+value+"\n\n";
-	           }
+	            }
 	        }
 	        else
 	        {
